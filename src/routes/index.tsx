@@ -61,10 +61,10 @@ function Index() {
 
       {/* Navigation */}
       <nav className="flex flex-col items-center gap-2 border-b border-border px-6 py-8">
-        <span className="font-display text-2xl italic tracking-tight text-primary">
+        <span className="font-display text-3xl italic tracking-tight text-primary">
           Vivianne
         </span>
-        <span className="font-mono text-[10px] uppercase tracking-widest text-muted">
+        <span className="font-mono text-xs uppercase tracking-widest text-muted">
           Escovista & Manicure
         </span>
       </nav>
@@ -82,16 +82,16 @@ function Index() {
             fetchPriority="high"
           />
         </div>
-        <h1 className="mb-6 font-display text-4xl italic leading-[1.1] text-balance">
+        <h1 className="mb-6 font-display text-5xl italic leading-[1.1] text-balance">
           Cabelos Lindos & <br /> Unhas Impecáveis
         </h1>
-        <p className="mb-8 max-w-[30ch] text-pretty text-muted">
+        <p className="mb-8 max-w-[32ch] text-pretty text-lg text-muted">
           Especialista em escovas e cuidados tradicionais para mãos e pés.
           Atendimento exclusivo de domingo a domingo.
         </p>
         <a
           href={WHATSAPP_LINK}
-          className="inline-block rounded-full bg-foreground px-8 py-4 font-medium tracking-wide text-background transition-transform active:scale-95"
+          className="inline-block rounded-full bg-foreground px-10 py-5 text-lg font-medium tracking-wide text-background transition-transform active:scale-95"
         >
           Agende seu Horário
         </a>
@@ -100,16 +100,16 @@ function Index() {
       {/* About */}
       <section className="bg-primary/5 px-6 py-16 animate-fade-up">
         <div className="mx-auto max-w-md">
-          <h2 className="mb-6 font-display text-2xl italic">
+          <h2 className="mb-6 font-display text-3xl italic leading-tight">
             Cuidado completo para sua beleza e autoestima
           </h2>
-          <p className="mb-6 leading-relaxed">
+          <p className="mb-6 text-lg leading-relaxed">
             Com atenção aos mínimos detalhes e dedicação total às clientes, a
             Vivianne oferece o cuidado que você merece: escovas modeladas com
             brilho incrível e serviço de manicure e pedicure com acabamento
             limpo e cuidadoso.
           </p>
-          <p className="leading-relaxed text-muted italic">
+          <p className="text-lg leading-relaxed text-muted italic">
             Nosso objetivo é proporcionar um momento de relaxamento e
             renovação, garantindo um resultado impecável tanto nos cabelos
             quanto nas unhas.
@@ -121,7 +121,7 @@ function Index() {
       <section className="px-6 py-16">
         <div className="mb-10 flex items-center gap-4">
           <div className="h-px flex-1 bg-border" />
-          <h2 className="font-mono text-xs uppercase tracking-[0.2em] text-muted">
+          <h2 className="font-mono text-sm uppercase tracking-[0.2em] text-muted">
             Nossos Serviços
           </h2>
           <div className="h-px flex-1 bg-border" />
@@ -129,7 +129,7 @@ function Index() {
 
         {/* Hair */}
         <div className="mb-12 animate-fade-up">
-          <h3 className="mb-6 flex items-center gap-3 font-display text-xl italic">
+          <h3 className="mb-6 flex items-center gap-3 font-display text-2xl italic">
             <span className="size-1.5 rounded-full bg-primary" />
             Cabelos & Escovas
           </h3>
@@ -155,7 +155,7 @@ function Index() {
 
         {/* Nails */}
         <div className="animate-fade-up">
-          <h3 className="mb-6 flex items-center gap-3 font-display text-xl italic">
+          <h3 className="mb-6 flex items-center gap-3 font-display text-2xl italic">
             <span className="size-1.5 rounded-full bg-primary" />
             Mãos & Pés
           </h3>
@@ -182,7 +182,7 @@ function Index() {
 
       {/* Benefits */}
       <section className="rounded-t-[32px] bg-foreground px-6 py-16 text-background">
-        <h2 className="mb-10 font-display text-3xl italic leading-tight text-balance">
+        <h2 className="mb-10 font-display text-4xl italic leading-tight text-balance">
           Por que escolher nossos cuidados?
         </h2>
         <ul className="space-y-8">
@@ -213,12 +213,12 @@ function Index() {
       <section className="px-6 py-16">
         <div className="relative overflow-hidden rounded-3xl border border-primary/10 bg-primary/5 p-8">
           <div className="relative z-10">
-            <p className="mb-6 text-lg leading-relaxed italic">
+            <p className="mb-6 text-xl leading-relaxed italic">
               "Amo fazer cabelo e unhas com a Vivianne! A cutilagem é perfeita
               e a escova dura dias. Além disso, o horário de atendimento
               facilita muito a minha vida."
             </p>
-            <p className="font-mono text-[10px] uppercase tracking-widest text-primary">
+            <p className="font-mono text-xs uppercase tracking-widest text-primary">
               — Cliente Satisfeita
             </p>
           </div>
@@ -226,11 +226,11 @@ function Index() {
 
         <div className="relative mt-6 overflow-hidden rounded-3xl border border-primary/10 bg-primary/5 p-8">
           <div className="relative z-10">
-            <p className="mb-6 text-lg leading-relaxed italic">
+            <p className="mb-6 text-xl leading-relaxed italic">
               "Muito difícil achar quem faça uma manicure tradicional tão bem
               feita e limpinha hoje em dia. Atendimento nota 10!"
             </p>
-            <p className="font-mono text-[10px] uppercase tracking-widest text-primary">
+            <p className="font-mono text-xs uppercase tracking-widest text-primary">
               — Cliente Satisfeita
             </p>
           </div>
@@ -239,46 +239,46 @@ function Index() {
 
       {/* Footer / Contact */}
       <footer className="border-t border-border px-6 py-16">
-        <h2 className="mb-8 font-display text-2xl italic">
+        <h2 className="mb-8 font-display text-3xl italic">
           Onde nos encontrar
         </h2>
         <div className="mb-12 space-y-6">
           <div>
-            <p className="mb-1 font-mono text-[10px] uppercase tracking-widest text-muted">
+            <p className="mb-1 font-mono text-xs uppercase tracking-widest text-muted">
               Localização
             </p>
-            <p className="text-sm">
+            <p className="text-base">
               Rua Lei do Ventre Livre
               <br />
               Bairro Santa Maria, SE
             </p>
           </div>
           <div>
-            <p className="mb-1 font-mono text-[10px] uppercase tracking-widest text-muted">
+            <p className="mb-1 font-mono text-xs uppercase tracking-widest text-muted">
               Disponibilidade
             </p>
-            <p className="text-sm">
+            <p className="text-base">
               Domingo a Domingo
               <br />
               07:00 — 22:00
             </p>
           </div>
           <div>
-            <p className="mb-1 font-mono text-[10px] uppercase tracking-widest text-muted">
+            <p className="mb-1 font-mono text-xs uppercase tracking-widest text-muted">
               WhatsApp
             </p>
-            <p className="text-sm">+55 79 966...</p>
+            <p className="text-base">+55 79 966...</p>
           </div>
         </div>
 
         <div className="flex flex-col gap-4">
           <a
             href={WHATSAPP_LINK}
-            className="w-full rounded-full bg-primary py-4 text-center font-medium text-primary-foreground shadow-lg transition-transform active:scale-95"
+            className="w-full rounded-full bg-primary py-5 text-center text-lg font-medium text-primary-foreground shadow-lg transition-transform active:scale-95"
           >
             Falar no WhatsApp e Garantir meu Horário
           </a>
-          <p className="text-center font-mono text-[10px] uppercase tracking-widest text-muted">
+          <p className="text-center font-mono text-xs uppercase tracking-widest text-muted">
             © {new Date().getFullYear()} Vivianne Escovista & Manicure
           </p>
         </div>
@@ -295,10 +295,10 @@ function ServiceCard({
   description: string;
 }) {
   return (
-    <div className="flex items-start justify-between rounded-xl border border-border bg-white/50 p-4">
+    <div className="flex items-start justify-between rounded-xl border border-border bg-white/50 p-5">
       <div>
-        <p className="font-medium">{title}</p>
-        <p className="mt-1 text-xs text-muted">{description}</p>
+        <p className="text-lg font-semibold">{title}</p>
+        <p className="mt-1 text-sm text-muted">{description}</p>
       </div>
     </div>
   );
@@ -315,10 +315,10 @@ function BenefitItem({
 }) {
   return (
     <li className="flex gap-4">
-      <span className="mt-1 font-mono text-xs text-primary">{number}</span>
+      <span className="mt-1 font-mono text-sm text-primary">{number}</span>
       <div>
-        <h4 className="mb-1 font-medium">{title}</h4>
-        <p className="text-sm text-background/60">{description}</p>
+        <h4 className="mb-1 text-lg font-medium">{title}</h4>
+        <p className="text-base text-background/60">{description}</p>
       </div>
     </li>
   );
