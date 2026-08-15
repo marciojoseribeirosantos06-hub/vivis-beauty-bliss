@@ -5,9 +5,10 @@
 @custom-variant dark (&:is(.dark *));
 
 /*
- * Design system: Warm Editorial para Vivianne Escovista & Manicure.
+ * Design system: Warm Editorial em tons rosa e branco
+ * para Vivianne Escovista & Manicure.
  *
- * Paleta em oklch. Tipografia: Playfair Display (display), Lora (body),
+ * Tipografia: Playfair Display (display), Lora (body),
  * JetBrains Mono (mono/labels).
  */
 
@@ -49,25 +50,25 @@
 :root {
   --radius: 0.625rem;
 
-  --background: oklch(0.992 0.035 31.55);
-  --foreground: oklch(0.269 0.024 31.07);
+  --background: oklch(0.988 0.036 25.83);
+  --foreground: oklch(0.298 0.040 16.37);
   --card: oklch(1 0 0);
-  --card-foreground: oklch(0.269 0.024 31.07);
+  --card-foreground: oklch(0.298 0.040 16.37);
   --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.269 0.024 31.07);
-  --primary: oklch(0.626 0.125 23.19);
-  --primary-foreground: oklch(0.992 0.035 31.55);
+  --popover-foreground: oklch(0.298 0.040 16.37);
+  --primary: oklch(0.673 0.103 16.09);
+  --primary-foreground: oklch(0.988 0.036 25.83);
   --secondary: oklch(0.968 0.007 247.896);
-  --secondary-foreground: oklch(0.269 0.024 31.07);
-  --muted: oklch(0.597 0.046 32.36);
-  --muted-foreground: oklch(0.597 0.046 32.36);
+  --secondary-foreground: oklch(0.298 0.040 16.37);
+  --muted: oklch(0.616 0.058 17.60);
+  --muted-foreground: oklch(0.616 0.058 17.60);
   --accent: oklch(0.968 0.007 247.896);
-  --accent-foreground: oklch(0.269 0.024 31.07);
+  --accent-foreground: oklch(0.298 0.040 16.37);
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.984 0.003 247.858);
-  --border: oklch(0.269 0.024 31.07 / 0.082);
+  --border: oklch(0.298 0.040 16.37 / 0.082);
   --input: oklch(0.929 0.013 255.508);
-  --ring: oklch(0.626 0.125 23.19);
+  --ring: oklch(0.673 0.103 16.09);
 }
 
 @layer base {
@@ -101,11 +102,11 @@
 @keyframes pulseSoft {
   0%, 100% {
     transform: scale(1);
-    box-shadow: 0 4px 20px oklch(0.626 0.125 23.19 / 0.3);
+    box-shadow: 0 4px 20px oklch(0.673 0.103 16.09 / 0.3);
   }
   50% {
     transform: scale(1.05);
-    box-shadow: 0 8px 30px oklch(0.626 0.125 23.19 / 0.5);
+    box-shadow: 0 8px 30px oklch(0.673 0.103 16.09 / 0.5);
   }
 }
 
